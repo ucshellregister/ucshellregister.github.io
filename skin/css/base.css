@@ -1,0 +1,518 @@
+html,body{font-family: "微软雅黑";color: #333;position: relative;background: #fff;padding: 0;margin: 0 auto;box-sizing: border-box;}
+
+*{margin: 0;padding: 0;list-style: none;box-sizing: border-box;}
+
+h1, h2, h3, h4, h5, h6 {margin: 0;font-weight: normal;}
+
+h1{font-size: 50px;}
+
+h2{font-size: 40px;}
+
+h3{font-size: 30px;}
+
+h4{font-size: 26px;}
+
+p,a{font-size: 18px;color:#666666;}
+
+a{text-decoration: none;color: #333;}
+
+a:hover{text-decoration: none;}
+
+b,i{font-weight: normal;font-style: normal;}
+
+img{ width: 100%;border:0;}
+
+.fl{float: left;}
+
+.fr{float: right;}
+
+.container{width: 1170px;margin: auto;}
+
+.clearfix:after{content: " ";display: block;clear: both;}
+
+.red{color: #ff3333;}
+
+.container .til{
+
+	text-align: center;
+
+}
+
+.container .til p{
+
+	margin:20px auto;
+
+	width: 60px;
+
+	height: 20px;
+
+	background: #ff9900;
+
+	border-radius: 10px;
+
+}
+
+/*导航*/
+
+nav{
+
+	height: 80px;
+
+	line-height: 80px;
+
+}
+
+nav .top{
+
+	width: 100%;
+
+	position: fixed;
+
+	top: 0;
+
+	height: 80px;
+
+	background: #fff;
+
+	box-shadow: 1px 1px 1px;
+
+	z-index: 9999;
+
+}
+
+nav a img{
+
+	vertical-align: middle;
+
+}
+
+nav ul li:first-child{
+
+	width:190px;
+
+	margin-right: 95px;
+
+}
+
+nav ul li:nth-child(2){
+
+	width: 55px;
+
+}
+
+nav ul li:nth-child(3){
+
+	width: 110px;
+
+}
+
+nav ul li{
+
+	width: 95px;
+
+	text-align: left;
+
+	float: left;
+
+}
+
+nav ul li:last-child{
+
+	width: 150px;
+
+}
+
+nav ul li:hover a{
+
+	padding-bottom: 8px;
+
+	border-bottom: 2px solid #ff9900;
+
+}
+
+/*轮播*/
+
+.banner .swiper-pagination-bullet {
+
+	width: 50px;
+
+	height: 6px;
+
+	display: inline-block;
+
+	border-radius: 0;
+
+	background: #fff;
+
+	opacity: 1;
+
+}
+
+.banner .swiper-pagination-bullet-active{
+
+	background: #2c96ea;
+
+}
+
+.banner .swiper-button-next, .swiper-button-prev{
+
+	margin-top: -45px!important;
+
+}
+
+.banner .swiper-button-prev,.banner .swiper-button-next{
+
+	background: rgba(0,0,0,0.3);
+
+	color: #8890a4;
+
+	width: 50px;
+
+	height: 75px;
+
+	line-height: 75px;
+
+	text-align: center;
+
+	border-radius: 5px;
+
+	font-size: 35px;
+
+}
+
+.banner .swiper-button-prev:hover,.banner .swiper-button-next:hover{
+
+	background: rgba(0,0,0,0.5);
+
+	color: #fff;
+
+}
+
+/*表单*/
+
+.form{
+
+	margin-top: 60px;
+
+}
+
+.form .fl,.form .fr{
+
+	width: 523px;
+
+	height: 554px;
+
+	border-radius: 10px;
+
+	border: 1px solid #ff9900;
+
+	padding: 30px;
+
+	box-shadow: 3px 3px 10px 8px #fffcf8;
+
+}
+
+.form .fl div{
+
+	margin: 40px 0;
+
+}
+
+.form .fl h4{
+
+	float: left;
+
+	padding: 15px;
+
+	text-align: center;
+
+	width: 100px;
+
+	height: 100px;
+
+	line-height: 35px;
+
+	border-radius: 10px;
+
+	color: #fff;
+
+}
+
+.form .fl p{
+
+	line-height: 1.5em;
+
+	font-size: 18px;
+
+	float: right;
+
+	width: 340px;
+
+	height: 100px;
+
+}
+
+.form .blue h4{
+
+	background: #00a0e9;
+
+}
+
+.form .yel h4{
+
+	background: #ff9900;
+
+}
+
+.form .yel p{
+
+	padding-top: 20px;
+
+}
+
+.form .fr{
+
+	width: 625px;
+
+}
+
+.form .fr h2{text-align: center;}
+
+.form .fr ul{
+
+	margin-top: 45px;
+
+}
+
+.form .fr ul li{
+
+	font-size: 24px;
+
+	color: #333;
+
+	margin-bottom:28px;
+
+}
+
+.form .fr ul input{
+
+	font-size: 24px;
+
+	width: 435px;
+
+	height: 45px;
+
+}
+
+.form .fr ul .submit{
+
+	width: 100%;
+
+	margin: auto;
+
+	text-align: center;
+
+}
+
+.form .fr ul .submit input{
+
+	width: 200px;
+
+	height: 60px;
+
+	background: #ff9900;
+
+	color: #fff;
+
+	border: 0;
+
+	outline: none;
+
+	cursor: pointer;
+
+}
+
+.form .fr ul .submit input:hover{
+
+	background: #ff9000;
+
+}
+
+/*页脚*/
+
+footer{
+
+	padding-top: 35px;
+
+	margin-top: 75px;
+
+	background: #2c3035;
+
+	color: #fff;
+
+	height: 300px;
+
+}
+
+footer .yel{
+
+	color: #ff9900;
+
+}
+
+footer .fs{
+
+	font-size: 19px;
+
+}
+
+footer .container{
+
+	text-align: center;
+
+	display: flex;
+
+	justify-content: space-between;
+
+}
+
+footer .container ul {
+
+	width: 665px;
+
+	display: flex;
+
+	justify-content:space-between;
+
+}
+
+footer .container ul li a,footer .container b{
+
+	color: #fff;
+
+	font-size: 19px;
+
+}
+
+footer .container h3{
+
+	font-size: 28px;
+
+	margin: 20px 0;
+
+}
+
+footer .container p img{
+
+	width: 390px;
+
+	margin-bottom: 20px;
+
+}
+
+footer ul li a:hover{
+
+	color: #35c7ff;
+
+}
+
+footer .container div:last-child img{
+
+	width: 200px;
+
+}
+/*悬浮窗*/
+	.f-container{
+	    position: fixed;
+	    right: -3px;
+	    bottom: 420px;
+	    z-index: 99;
+	    width: 250px;
+	}
+	.f-container .f-plane{
+	    display: none;
+	}
+	.f-container .f-plane.active{
+	    display: block;
+	}
+	.f-container .f-action{
+	    display: inline-block;
+	    width: 36px;
+	    height: 96px;
+	    line-height: 24px;
+	    text-align: center;
+	    color: #ffffff;
+	    box-sizing: border-box;
+	    border-radius: 8px;
+	    box-shadow: 0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);
+	}
+	.f-container .f-action.closed{
+	    background: #0069b3 url("../images/left.png")/*tpa=http://www.jinzhengbao.com.cn/skin/images/left.png*/ no-repeat center 70px;
+	    padding: 16px 0px;
+	    float: right;
+	}
+	.f-container .f-action.opening{
+	    background: #0069b3 url("../images/right.png")/*tpa=http://www.jinzhengbao.com.cn/skin/images/right.png*/ no-repeat center 70px;
+	    padding: 16px 0px;
+	    float: left;
+	    border-top-right-radius: 0px;
+	    border-bottom-right-radius: 0px;
+	}
+	.f-container .f-plane-open{
+	    position: relative;
+	    float: left;
+	    width: 214px;
+	}
+	.f-container .f-open{
+	    position: absolute;
+	    font-size: 18px;
+	    font-weight: bolder;
+	    top: 0px;
+	    left: 0px;
+	    height: 486px;
+	    padding: 12px;
+	    border-top-right-radius: 8px;
+	    border-bottom-right-radius: 8px;
+	    border-bottom-left-radius: 8px;
+	    background: #0069b3;
+	    box-sizing: border-box;
+	    box-shadow: 0 3px 4px -1px rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);
+	}
+	.f-container .phone1{
+	    text-align: center;
+	    color: #ffffff;
+	    padding-bottom: 2px;
+	}
+
+	.f-container .f-btn{
+	    display: block;
+	    width: 150px;
+	    height: 40px;
+	    line-height: 40px;
+	    background: #ffffff;
+	    color: #0069b3;
+	    border-radius: 4px;
+	    margin: 26px 0px;
+	    text-align: center;
+	}
+	.f-container .f-qrcode{
+	    position: relative;
+	    overflow: hidden;
+	    z-index: 1;
+	    border-radius: 8px;
+	    width: 150px;
+	    height: 150px;
+	    background: #ffffff;
+	}
+	.f-container .f-qrcode img{
+	    max-height: 100%;
+	    max-width: 100%;
+	}
+	.f-container .f-txt{
+	    font-weight: normal;
+	    font-size: 16px;
+	    color: #ffffff;
+	    padding-top: 12px;
+	    margin: 0 -1px;
+	}
+/*悬浮窗*/

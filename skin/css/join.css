@@ -1,0 +1,118 @@
+/*市场前景*/
+.qianjing{
+	margin: 60px 0;
+}
+.qianjing h3{
+	text-align: center;
+	color: #ff9900;
+	margin-bottom: 20px;
+}
+.qianjing .yel{
+	color: #cc6600;
+}
+.qianjing p{
+	margin-top: 15px;
+}
+/*政策*/
+.policy .yel{
+	color: #ff9900;
+}
+.zc1{
+	margin-bottom: 35px;
+}
+.zc1 ul{
+	display: flex;
+	justify-content: space-between;
+}
+.zc1 ul li{
+	width: 368px;
+	height: 411px;
+	background: #ffebce;
+	border-radius: 10px;
+	padding: 30px 20px;
+}
+.zc1 ul li .til {
+	text-align: left;
+}
+.zc1 ul li .til span{
+	float: left;
+	width: 20px;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #ff9900;
+	border-radius: 10px;
+}
+.zc1 ul li .til h3{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 20px;
+	color: #ff9900;
+}
+.zc1 .zc1-main{
+	width: 326px;
+	height: 284px;
+	background: #fff;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 50px 30px;
+}
+.zc1 li:last-child p{
+	text-align: left;
+	margin-bottom: 10px;
+	line-height: 27px;
+}
+.zc1 li:nth-child(2) p{
+	margin-top: 20px;
+}
+.zc1 .tab-til{
+	width: 326px;
+	height: 107px;
+	text-align: center;
+	margin: 20px 0;
+	padding: 20px 0;
+	background: #fff;
+	border-radius: 10px;
+}
+.zc1 table{
+	width: 327px;
+	height: 166px;
+	border-radius: 10px;
+	background: #fff;
+	border: 0;
+	text-align: center;
+	border-collapse: collapse;
+}
+.zc1 table td{
+	border-color: #ffebce;
+}
+.policy .zc2 li{
+	height: 622px;
+}
+.policy .zc2 .tab-til{
+	height: 155px;
+	padding: 20px;
+}
+.policy .zc2 .tab-til p{
+	text-align: left;
+}
+.policy .zc2 li:first-child table{
+	height: 210px;
+	margin-bottom: 20px;
+}
+.zc2 li:last-child{
+	width: 770px;
+}
+.zc2 li:last-child table{
+	width: 733px;
+	height: 120px;
+	margin: 20px 0;
+}
+.zc1 .yel{
+	font-weight: 600;
+	font-size: 22px;
+}
+.zc2 .tab-til h3{
+	font-size: 18px;
+}

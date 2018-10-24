@@ -1,0 +1,65 @@
+/*优势*/
+.good{
+	margin: 60px 0;
+}
+.good-main{
+	display: flex;
+	justify-content: space-between;
+}
+.good-main ul{
+	width: 693px;
+}
+.good-main ul li h2,.good-main ul li h4{
+	display: inline-block;
+}
+.good-main ul li h2{
+	color: #ff9900;
+	margin-right: 20px;
+}
+.good-main ul li{
+	margin-bottom: 35px;
+}
+.good-main ul li p{
+	margin-top: 5px;
+}
+/*功能*/
+.fun ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.fun ul li{
+	padding: 30px;
+	width: 375px;
+	height: 260px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.fun ul li p{
+	color: #fff;
+}
+.fun ul li h2{
+	font-size: 60px;
+}
+.fun ul li h3{
+	margin:10px 0 5px;
+}
+.fun ul li:nth-child(1){
+	background: url("../images/product-2.jpg")/*tpa=http://www.jinzhengbao.com.cn/skin/images/product-2.jpg*/no-repeat center;
+}
+.fun ul li:nth-child(2){
+	background: url("../images/product-3.jpg")/*tpa=http://www.jinzhengbao.com.cn/skin/images/product-3.jpg*/no-repeat center;
+}
+.fun ul li:nth-child(3){
+	background: url("../images/product-4.jpg")/*tpa=http://www.jinzhengbao.com.cn/skin/images/product-4.jpg*/no-repeat center;
+}
+.fun ul li:nth-child(4){
+	background: url("../images/product-5.jpg")/*tpa=http://www.jinzhengbao.com.cn/skin/images/product-5.jpg*/no-repeat center;
+}
+.fun ul li:nth-child(5){
+	background: url("../images/product-6.jpg")/*tpa=http://www.jinzhengbao.com.cn/skin/images/product-6.jpg*/no-repeat center;
+}
+.fun ul li:nth-child(6){
+	background: url("../images/product-7.jpg")/*tpa=http://www.jinzhengbao.com.cn/skin/images/product-7.jpg*/no-repeat center;
+}
